@@ -462,7 +462,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="button-close" data-modal-close>
           <svg class="modal-closing" width="8" height="8">
@@ -511,15 +511,11 @@
               type="checkbox"
               name="policy"
               id="policy"
-              class="modal-check-input is-hidden" />
+              value="true"
+              class="check-input is-hidden" />
             <label for="policy" class="check-text"
               >I accept the terms and conditions of the
               <a href="#" class="privacy-link-gap">Privacy Policy</a>
-              <span>
-                <svg class="check-icon" width="16" height="16">
-                  <use href="./images/icons.svg#con-accept"></use>
-                </svg>
-              </span>
             </label>
           </div>
           <button type="submit" class="btn-submit">Send</button>
